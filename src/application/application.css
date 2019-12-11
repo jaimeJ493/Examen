@@ -1,0 +1,41 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.p1{
+	-fx-background-image: url(sky.jpeg);
+	-fx-background-size:600px;
+	-fx-background-repeat: no-repeat;
+}
+.p2{
+	-fx-background-image: url(profilephoto.png);
+	-fx-background-size:150px;
+	-fx-background-repeat: no-repeat;
+}
+.flotante:hover{
+	visibility:true;
+}
+.flotante{
+	visibility:false;
+}
+.button{
+	-fx-background-color:orange;
+	-fx-background-radius:5px;
+}
+.button:hover {
+	-fx-background-color:black;
+	-fx-border-color: orange;
+	
+}
+.p3{
+	-fx-background-image: url(cuadro1.jpg);
+	-fx-background-size:600px;
+	-fx-background-repeat: no-repeat;
+}
+.p4{
+	-fx-background-image: url(cuadro2.jpg);
+	-fx-background-size:600px;
+	-fx-background-repeat: no-repeat;
+}
+.p5{
+	-fx-background-image: url(cuadro1.jpg);
+	-fx-background-size:600px;
+	-fx-background-repeat: no-repeat;
+}

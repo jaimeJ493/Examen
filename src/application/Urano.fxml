@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" stylesheets="@application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.RocketControl">
+   <children>
+      <BorderPane>
+         <top>
+            <Pane prefHeight="44.0" prefWidth="600.0" styleClass="p1" stylesheets="@application.css" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <Pane prefHeight="410.0" prefWidth="400.0" style="-fx-background-color: #E7A459;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="100.0" layoutY="32.0" prefHeight="378.0" prefWidth="400.0" styleClass="p3" />
+                  <Pane layoutX="110.0" layoutY="42.0" prefHeight="378.0" prefWidth="400.0" styleClass="p4" />
+                  <Pane layoutX="110.0" layoutY="42.0" prefHeight="378.0" prefWidth="400.0" styleClass="p5" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+      <Pane layoutY="452.0" prefHeight="48.0" prefWidth="600.0" styleClass="p1" stylesheets="@application.css" />
+   </children>
+</AnchorPane>
